@@ -12,7 +12,7 @@
     "pretest:coverage": "rimraf coverage",
     "test:coverage": "jest -c ./config/test/jest.coverage.json --verbose"
   },
-  "author": "Lemoncode",
+  "author": "Vanesa López",
   "license": "MIT",
   "dependencies": {
     "@material-ui/core": "^4.2.1",
