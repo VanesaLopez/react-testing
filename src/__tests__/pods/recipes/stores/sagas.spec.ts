@@ -1,6 +1,5 @@
 import { watchRecipesPodSagas, getRecipesRequestSaga } from 'pods/recipes/store';
 import { takeLatest, call, put } from 'redux-saga/effects';
-import { runSaga } from 'redux-saga';
 import { actionTypes } from 'pods/recipes/store/action-types';
 import * as api from 'pods/recipes/api';
 import { updateRecipes } from 'pods/recipes/store';
